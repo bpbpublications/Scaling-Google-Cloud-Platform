@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-java
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-java
+  template:
+    metadata:
+      labels:
+        app: hello-java
+    spec:
+      containers:
+      - name: hello-java
+        image: gcr.io/infinite-zephyr-353609/hello-java:v1
+      nodeSelector:
+        cloud.google.com/gke-preemptible: "true"
+      terminationGracePeriodSeconds: 25

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: custom
+spec:
+  selector:
+    matchLabels:
+      app: custom
+  template:
+    metadata:
+      labels:
+        app: custom
+    spec:
+      volumes:
+      - name: google-cloud-key
+        secret:
+          secretName: pubsub-scale-key
+      containers:
+      - name: custom-metric
+        image: gcr.io/infinite-zephyr-353609/demo_hpa_custom_hpa_metrics:v1

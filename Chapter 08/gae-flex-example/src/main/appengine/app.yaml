@@ -1,0 +1,7 @@
+runtime: java
+env: flex
+service: demo-flex-app
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+

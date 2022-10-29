@@ -1,0 +1,6 @@
+runtime: java11
+instance_class: B1
+service: demo-standard-app
+basic_scaling:
+  max_instances: 11
+  idle_timeout: 10m
