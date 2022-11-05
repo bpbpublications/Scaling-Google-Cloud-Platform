@@ -1,6 +1,6 @@
 # Scaling Google Cloud Platform
 
-Managing Real-world Production-grade Challenges at Scale
+Managing Real-world Production-grade Challenges at Scale 
 
 This is the repository for [Edge Computing with Python
 ](https://in.bpbonline.com/products/scaling-google-cloud-platform?_pos=1&_sid=acf9edca9&_ss=r&variant=43663026192622),published by BPB Publications. 
