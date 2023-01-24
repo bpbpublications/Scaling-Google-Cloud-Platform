@@ -3,7 +3,7 @@
 Managing Real-world Production-grade Challenges at Scale 
 
 This is the repository for [Edge Computing with Python
-](https://in.bpbonline.com/products/scaling-google-cloud-platform?_pos=1&_sid=acf9edca9&_ss=r&variant=43663026192622),published by BPB Publications. 
+](https://bpbonline.com/products/scaling-google-cloud-platform),published by BPB Publications. 
 
 ## About the Book
 ‘Scaling Google Cloud Platform’ equips developers with the know-how to get the most out of its services in storage, serverless computing, networking, infrastructure monitoring, and other IT tasks. This book explains the fundamentals of cloud scaling, including Cloud Elasticity, creating cloud workloads, and selecting the appropriate cloud scaling key performance indicators (KPIs).
